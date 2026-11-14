@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .gm-breathe { animation: gm-pulse 2.4s ease-in-out infinite; transform-origin: center; }
+      @keyframes gm-pulse { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.55; } }
+      @media (prefers-reduced-motion: reduce) { .gm-breathe { animation: none; } }
+    </style>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#050B14"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#22D3EE" stroke-opacity="0.45" stroke-width="2"/>
+  <path d="M16 22 L27 32 L16 42" fill="none" stroke="#3B82F6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line class="gm-breathe" x1="31" y1="44" x2="48" y2="44" stroke="#22D3EE" stroke-width="5" stroke-linecap="round"/>
+</svg>
